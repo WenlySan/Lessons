@@ -3,12 +3,12 @@ from tkinter import ttk
 from tkinter.messagebox import showinfo
 
 
-game_place = [[0,1,2],   # Можно удалить,ноо пусть пока что будет, соседи спросят, а у тебя есть
+game_place = [[0, 1, 2],   # Можно удалить,ноо пусть пока что будет, соседи спросят, а у тебя есть
               [0,1,2],
               [0,1,2]]
-win = [None for i in range(1,10)]
-lot_x = ['X' for i in range(0,3)]
-lot_o = ['O' for i in range(0,3)]
+win = [None for i in range(1, 10)]
+lot_x = ['X' for i in range(0, 3)]
+lot_o = ['O' for i in range(0, 3)]
 xoro = True #орпеделяет ход игрока Х или О
 # print(lot_o)
 
