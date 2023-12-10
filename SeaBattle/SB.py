@@ -10,7 +10,8 @@ class BattlePlace:
     def getinfo(self):
         return self.name, self.x, self.y, self.ship, self.hide, self.is_ship
 
-g = [ ]
+
+g = []
 sea = '[~]'
 miss = '[o]'
 ko = '[x]'
